@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # basic_operations.py
 
 # Assign values to the variables
