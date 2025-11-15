@@ -20,7 +20,7 @@ match priority:
 if time_bound == "yes" and priority in ["high", "medium", "low"]:
     reminder += " that requires immediate attention today!"
 elif time_bound == "no" and priority in ["high", "medium", "low"]:
-    reminder = f"Note: {reminder}. Consider completing it when you have free time."
+    reminder += ". Consider completing it when you have free time."
 
-# Print the final reminder
-print("\nReminder:", reminder)
+# Print the final reminder in the expected format
+print(f"Reminder: {reminder}")
